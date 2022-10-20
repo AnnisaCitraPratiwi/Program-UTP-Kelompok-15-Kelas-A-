@@ -126,13 +126,16 @@ int main(){
 		divider();
 		cout<<"Uang Anda\t: Rp. ";
 		cin>>bayar;
+	
 		//operator
 		kembalian=bayar-harga;
+	
 		//percabangan
 		if(bayar>=harga){
 		cout<<"Kembalian \t: Rp. "<<kembalian<<endl;
 		divider();
 		cout<<endl;
+			
 	}	else if(bayar<harga){
 		system("cls");
 		header();
